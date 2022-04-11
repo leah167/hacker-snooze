@@ -1,0 +1,43 @@
+#header{
+    /* justify-content: left; */
+    margin: auto;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #64DFDF;
+    padding: 6px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.header-links{
+    margin: 2px;
+    padding: 2px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#home{
+    border: 1px solid white;
+    margin: 2px;
+    padding: 4px;
+}
+
+#news-container{
+    margin: 10px;
+    border: 1px solid #7400B8;
+    padding: 10px;
+    background-color: lightcyan;
+}
+
+@media screen and (max-width:700px) {
+    .navbar{
+        font-size: smaller;
+    }
+
+    #news-container{
+        font-size: smaller;
+    }
+}
